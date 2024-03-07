@@ -8,7 +8,7 @@ function Accordion({ items }) {
         if (expandedIndex === nextIndex) {
             setExpandedIndex(-1);
         }else {
-        setExpandedIndex(nextIndex);
+            setExpandedIndex(nextIndex);
         }
     }
 
