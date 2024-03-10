@@ -8,7 +8,7 @@ function Dropdown({ options, value , onChange }) {
 
     useEffect(() => {
         const handler = (event) => {
-            if(!div.current) {
+            if(!divEl.current) {
                 return;
             }
 
