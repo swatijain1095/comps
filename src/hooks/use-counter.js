@@ -7,12 +7,18 @@ function useCounter (initialCount) {
         console.log(count);
     }, [count]);
 
-    const increament = () => {
+    const increment = () => {
         setCount(count + 1);
     };
+
+    const decrement = () => {
+        setCount(count - 1);
+    };
+
     return {
         count,
-        increament,
+        increment,
+        decrement
     };
 }
 
